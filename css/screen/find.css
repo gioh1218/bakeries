@@ -1,0 +1,66 @@
+
+.account {
+    background-color: rgb(246, 238, 225);
+    position: fixed;
+    width: 70%;
+    height: 300vh;
+    margin-left: -20px;
+    margin-top: -50px;
+    animation: fadeIn 0.6s ease-out;
+}
+@keyframes fadeIn {
+    from { 
+        transform: translateX(-500px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+@keyframes liKe {
+    0% {
+        transform: none;
+    }
+    50% {
+        color: red;
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+.account__bar {
+    padding: 20px;
+}
+.account__profile {
+    padding: 50px 30px;
+}
+.account__profile span {
+    justify-content: center;
+    align-items: center;
+}
+.account__profile img {
+    border: solid 2px rgb(231, 213, 198);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.account__functions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 60px;
+}
+.account__functions span {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.account__log-out {
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.account__log-out span {
+    text-decoration: underline;
+}

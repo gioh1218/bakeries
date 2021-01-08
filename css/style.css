@@ -7,8 +7,10 @@
 
 @import "components/status-bar.css";
 @import "components/icon-row.css";
+@import "screen/find.css";
 
 body {
+    height: 300vh;
     color:#2e363e;
     font-family: 'Open Sans', sans-serif;
 }
