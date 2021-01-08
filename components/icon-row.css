@@ -1,0 +1,32 @@
+.icon-row{
+    display:flex;
+    justify-content:space-between;
+    padding-top:25px;
+    padding-bottom:25px;
+}
+
+.icon-row__icon{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-row img{
+    height:60px;
+    width:60px;
+    background-color: #fff2b0;
+    border-radius: 50%;
+}
+
+
+.icon-row__icon span{
+    margin-top:15px;
+    width:60px;
+    text-align:center;
+    font-size:8px;
+}
+
+.icon-row .second-row{
+    width:50%;
+    margin: 0 auto;
+}
