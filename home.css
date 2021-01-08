@@ -1,0 +1,51 @@
+#home{
+    height:500vh;
+    padding:0px 20px;
+}
+
+.screen-header{
+    margin: 20px 0px;
+    text-align: left;
+    display:flex;
+    flex-direction:column;
+}
+
+.screen-header__title{
+    margin-bottom: 20px;
+    font-size:25px;
+    font-weight:800;
+}
+
+.screen-header__text1,
+.screen-header__text2{
+    display:flex;
+}
+
+.screen-header__text1{
+    font-size:18px;
+    margin-bottom:10px;
+    font-weight:550;
+}
+
+.sreen-header_text2{
+    font-size:14px;
+}
+
+.view-recipe__title{
+    display:flex;
+    margin-bottom: 10px;
+}
+
+.view-recipe__imgs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:10px 0px;
+}
+
+
+.view-recipe__img{
+    height:200px;
+    width:150px;
+    border-radius: 10%;
+}
